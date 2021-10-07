@@ -21,8 +21,14 @@ ul{
   li{
     font-size:.75em;
     cursor: pointer;
-    padding: .875em 1.5em;
-    margin: 0 .5em;
+    a{
+      display: block;
+      padding: .875em 1.25em;
+      &:hover{
+        color:inherit;
+        text-decoration: none;
+      }
+    }
     &:hover {
       background-color: $secondary-color;
       color:$dark-color;
