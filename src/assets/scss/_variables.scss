@@ -1,0 +1,26 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+/* Default font-size */
+$font-size : 16px;
+
+/* Color Variation */
+$darkColor: #363945;
+$lightBgColor: #f8f8f8;
+$primary-color: #9a8b4f;
+$secondary-color: #efe1ce;
+$accent-color: #e0b589;
+$default-color: #939597;
+
+
+/* Size Variation */
+$wrapper-width: 400px;
+$gutter-width: 1em;
+
+
+
+/* Responsive Size */
+$xl: 1399px;
+$lg: 1199px;
+$md: 991px;
+$sm: 767px;
+$xs: 575px;
