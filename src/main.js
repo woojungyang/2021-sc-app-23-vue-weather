@@ -1,16 +1,18 @@
 import Vue from 'vue'
+// import App from './01.Computed.vue'
+// import App from './02.Watch.vue'
+// import App from './03.Weather.vue'
+// import App from './04.Weather.vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import { BootstrapVue } from 'bootstrap-vue'
 
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-// Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
-// Optionally install the BootstrapVue icon components plugin
-Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
 
