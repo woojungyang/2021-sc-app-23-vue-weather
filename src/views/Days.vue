@@ -36,7 +36,14 @@ export default {
 
   },
   created () {
-    this.$store.dispatch('ACT_COORDS') // 위치정보값을 가져오렴
+    if (!this.GET_COORDS.lat) {
+      this.$store.dispatch('ACT_COORDS')
+    } else {
+      this.$store.dispatch('ACT_COORDS', {
+        lat: this.GET_COORDS.lat,
+        lon: this.GET_COORDS.lon
+      })
+    }
   }
 }
 </script>
