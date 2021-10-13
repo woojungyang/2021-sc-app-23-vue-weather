@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 // import Daily from '../views/Daily.vue'
 // import Days from '../views/Days.vue'
 
-// 지연로딩
+// 지연로딩~
 const Daily = () => import('../views/Daily.vue')
 const Days = () => import('../views/Days.vue')
 
