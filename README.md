@@ -1,24 +1,9 @@
-# 23.vue-weather
+<h1>Weather App (Vue.js, Scss)</h1>
 
-## Project setup
-```
-npm install
-```
+domain : https://sc21-app-vue-weather-ywj.web.app/ <br>
+dev-tools : Vue.js, Vuex, Vue-Router Scss,
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### 주요기능
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 위치데이터 기반으로 현재 날씨 확인가능
+- 현재날씨 / 주간 날씨를 확인가능한 어플
